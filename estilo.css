@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: rgb(84, 1, 161);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    overflow-y: hidden;
+}
+h1 {
+    font-size: 30px;
+    color: rgb(21, 240, 13);
+    text-shadow: 2px 1px white;
+    text-align: center;
+    margin-top: 10px;
+}
+header {
+    color: rgb(21, 240, 13);
+    text-align: center;
+}
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 10px;
+    padding: 50px;
+    width: 400px;
+    box-shadow: 3px 3px  20px rgba(0, 0, 0, 0.445);
+    text-align: center;
+}
+footer {
+    color: rgb(21, 240, 13);
+    text-align: center;
+    font-style: italic;
+}
+#res {
+    text-align: center;
+}
+#entrada-numero {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+}
+#gerar {
+    border-radius: 20px;
+    padding: 10px;
+    background: rgb(84, 1, 161);
+    color: rgb(21, 240, 13);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1.5s all;
+    cursor: pointer;
+    margin: 10px;
+    text-shadow: 1px 1px white;
+}
+#gerar:hover {
+    transform: scale(1.2);
+}
+label {
+    font-size: 30px;
+}
+#somar,#subtrair,#multiplicar,#dividir {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+@media screen and (max-width:600px) {
+    section {
+        width: 248px;
+        height: 442px;
+        padding: 10px 46px;
+    }
+    #gerar {
+        margin: 25px;
+    }
+    #somar,#subtrair,#multiplicar,#dividir {
+        margin: 0 10px;
+    }
+    #entrada-numero {
+        font-size: 17px;
+    }
+}
