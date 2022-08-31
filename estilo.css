@@ -34,11 +34,6 @@ section {
     box-shadow: 3px 3px  20px rgba(0, 0, 0, 0.445);
     text-align: center;
 }
-footer {
-    color: rgb(21, 240, 13);
-    text-align: center;
-    font-style: italic;
-}
 #res {
     text-align: center;
 }
