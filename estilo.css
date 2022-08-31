@@ -83,7 +83,7 @@ label {
         margin: 25px;
     }
     #somar,#subtrair,#multiplicar,#dividir {
-        margin: 0 10px;
+        margin: 0 5px;
     }
     #entrada-numero {
         font-size: 17px;
