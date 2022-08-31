@@ -76,16 +76,17 @@ label {
 @media screen and (max-width:600px) {
     section {
         width: 248px;
-        height: 537px;
+        height: 466px;
         padding: 10px 46px;
     }
     #gerar {
-        margin: 25px;
+        margin: 10px;
     }
     #somar,#subtrair,#multiplicar,#dividir {
         margin: 0 5px;
     }
     #entrada-numero {
         font-size: 17px;
+        margin-bottom: 0px;
     }
 }
