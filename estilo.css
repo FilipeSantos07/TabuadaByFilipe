@@ -61,6 +61,7 @@ section {
 }
 label {
     font-size: 30px;
+    cursor: pointer;
 }
 #somar,#subtrair,#multiplicar,#dividir {
     width: 20px;
