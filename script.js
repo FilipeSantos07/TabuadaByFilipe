@@ -7,6 +7,8 @@ function gerar() {
 
     if(entradaNumero.value.length == 0) {
         alert("Por favor, digite um número!")
+
+        entradaNumero.focus()
     } else if(radioT[0].checked) {
         resultado.innerHTML = ""
         for(var contador = 1; contador <= 10; contador += 1) {
