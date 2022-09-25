@@ -10,6 +10,11 @@ body {
     font-size: 21px;
     font-weight: 500;
     overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 h1 {
     font-size: 30px;
@@ -23,14 +28,11 @@ h2 {
     margin-bottom: 35px;
 }
 section {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    max-width: 380px;
+    margin: auto;
     background: white;
     border-radius: 10px;
-    padding: 24px 0;
-    width: 400px;
+    padding: 24px 24px;
     box-shadow: 3px 3px  20px rgba(0, 0, 0, 0.445);
     text-align: center;
 }
@@ -72,7 +74,7 @@ label {
     section {
         width: 248px;
         height: 466px;
-        padding: 10px 46px;
+        padding: 10px 46px 80px 46px;
     }
     #gerar {
         margin: 10px;
