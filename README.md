@@ -16,4 +16,4 @@ Nesse projeto eu fiz do zero uma tabuada que foi o desafio do curso de javascrip
 
 ## 💛 Contato
 
-outerspaceguy@live.co.uk
+FilipeSantosEstudos1@gmail.com
